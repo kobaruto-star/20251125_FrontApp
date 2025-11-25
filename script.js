@@ -21,7 +21,7 @@ createApp({
       };
 
       // 実際のAPI URLに置き換えてください
-      const response = await axios.post('https://m3h-kobayashi-aca-vnet2.graysky-614b3573.japaneast.azurecontainerapps.io/api/SELECT', param);
+      const response = await axios.post('https://m3h-kobayashi-aca-vnet2.graysky-614b3573.japaneast.azurecontainerapps.io/api/INSERT', param);
       console.log(response.data);
     };
 
