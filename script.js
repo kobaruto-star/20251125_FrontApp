@@ -2,7 +2,7 @@
 // Axios共通設定
 // ==============================
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = "https://backapp-kobayashi.m3harbor.net/api"; // バックエンドのカスタムドメイン
+axios.defaults.baseURL = "https://backapp-kobayashi.m3harbor.net"; // バックエンドのカスタムドメイン
 
 // ==============================
 // Vueアプリ設定
